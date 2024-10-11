@@ -17,6 +17,8 @@ export const metadata: Metadata = {
   // other metadata
 };
 
+export const runtime = "edge";
+
 export default function Home() {
   return (
     <>
