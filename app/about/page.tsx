@@ -16,10 +16,10 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Our Team"
+        description="At ZealBrain, our team is the heart of our innovation. We are a diverse group of passionate developers, creative problem-solvers, and forward-thinking technologists."
       />
-      <AboutSectionOne />
+      {/* <AboutSectionOne /> */}
       <AboutSectionTwo />
     </>
   );
