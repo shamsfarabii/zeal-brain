@@ -30,4 +30,35 @@
   input#checkboxLabel:checked ~ .box span {
     @apply opacity-100;
   }
+
+  /* Deep Wave Leads Custom Styles */
+  .wave-gradient {
+    background: linear-gradient(135deg, #0B4F6C 0%, #01BAEF 50%, #20BF55 100%);
+  }
+
+  .pool-gradient {
+    background: linear-gradient(180deg, #00B4D8 0%, #0B4F6C 100%);
+  }
+
+  .ocean-gradient {
+    background: linear-gradient(135deg, #062A40 0%, #0B4F6C 50%, #1A7FA0 100%);
+  }
+
+  .aqua-glow {
+    box-shadow: 0 0 20px rgba(1, 186, 239, 0.3);
+  }
+
+  .aqua-glow:hover {
+    box-shadow: 0 0 30px rgba(1, 186, 239, 0.5);
+  }
+
+  .text-gradient-ocean {
+    @apply bg-gradient-to-r from-primary via-secondary to-accent inline-block text-transparent bg-clip-text;
+  }
+
+  /* Smooth scroll */
+  html {
+    scroll-behavior: smooth;
+  }
 }
+

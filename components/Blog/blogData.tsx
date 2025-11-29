@@ -3,45 +3,46 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "Luxury Infinity Pool - Miami Beach",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-01.jpg",
+      "Stunning oceanfront infinity pool with integrated spa and fire features. This project generated 15+ qualified leads through our targeted campaigns.",
+    image: "/images/blog/pool-1.png",
     author: {
-      name: "Samuyl Joshi",
-      image: "/images/blog/author-01.png",
-      designation: "Graphic Designer",
+      name: "Paradise Pools",
+      image: "/images/testimonials/auth-01.png",
+      designation: "Miami, FL",
     },
-    tags: ["creative"],
-    publishDate: "2025",
+    tags: ["luxury"],
+    publishDate: "2024",
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "Modern Geometric Pool - Scottsdale",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-02.jpg",
+      "Contemporary design with clean lines and LED lighting. Client saw 300% increase in leads after launching with Deep Wave Leads.",
+    image: "/images/blog/pool-2.png",
     author: {
-      name: "Musharof Chy",
-      image: "/images/blog/author-02.png",
-      designation: "Content Writer",
+      name: "Crystal Clear Pools",
+      image: "/images/testimonials/auth-02.png",
+      designation: "Phoenix, AZ",
     },
-    tags: ["computer"],
-    publishDate: "2025",
+    tags: ["modern"],
+    publishDate: "2024",
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "Natural Lagoon Pool - Beverly Hills",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-03.jpg",
+      "Resort-style natural pool with waterfall and tropical landscaping. Featured in our high-converting social media campaigns.",
+    image: "/images/blog/pool-1.png",
     author: {
-      name: "Lethium Deo",
-      image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      name: "Aqua Luxury Pools",
+      image: "/images/testimonials/auth-03.png",
+      designation: "Los Angeles, CA",
     },
-    tags: ["design"],
-    publishDate: "2025",
+    tags: ["natural"],
+    publishDate: "2024",
   },
 ];
+
 export default blogData;

@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Mike Johnson",
+    designation: "Owner, Paradise Pools - Miami, FL",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Deep Wave Leads transformed our business. We went from 3-4 leads per month to over 40 qualified leads. The quality is exceptional - these are homeowners ready to build.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Sarah Martinez",
+    designation: "CEO, Crystal Clear Pools - Phoenix, AZ",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Best marketing investment we've ever made. Their team understands the pool industry and knows exactly how to reach our target customers. ROI has been incredible.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "David Chen",
+    designation: "President, Aqua Luxury Pools - Los Angeles, CA",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Working with Deep Wave Leads has been a game-changer. They handle all our marketing so we can focus on building amazing pools. Highly recommend to any pool builder.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="What Pool Builders Say"
+          paragraph="Hear from our satisfied clients who have transformed their businesses with our lead generation services."
           center
         />
 
@@ -85,8 +85,8 @@ const Testimonials = () => {
               y2="459.865"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" />
-              <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+              <stop stopColor="#01BAEF" />
+              <stop offset="1" stopColor="#01BAEF" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_83:2"

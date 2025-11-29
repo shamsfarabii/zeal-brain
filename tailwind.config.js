@@ -38,7 +38,14 @@ module.exports = {
         white: "#FFFFFF",
         black: "#121723",
         dark: "#1D2430",
-        primary: "#4A6CF7",
+        // Deep Wave Leads Brand Colors
+        primary: "#0B4F6C", // Deep ocean blue
+        secondary: "#01BAEF", // Aquamarine
+        accent: "#20BF55", // Teal
+        "ocean-dark": "#062A40", // Darker blue for depth
+        "ocean-light": "#1A7FA0", // Lighter blue
+        "aqua-light": "#7FD8F0", // Light aquamarine
+        "pool-blue": "#00B4D8", // Pool water blue
         yellow: "#FBB040",
         "body-color": "#788293",
         "body-color-dark": "#959CB1",
@@ -46,7 +53,7 @@ module.exports = {
         "gray-light": "#F0F2F9",
         stroke: "#E3E8EF",
         "stroke-dark": "#353943",
-        "bg-color-dark": "#171C28",
+        "bg-color-dark": "#0A1929", // Darker background with blue tint
       },
 
       boxShadow: {
