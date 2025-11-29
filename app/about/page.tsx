@@ -17,7 +17,7 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="Our Team"
-        description="At ZealBrain, our team is the heart of our innovation. We are a diverse group of passionate developers, creative problem-solvers, and forward-thinking technologists."
+        description="At DeepWave Leads, we believe in quality, efficiency, and customer satisfaction."
       />
       {/* <AboutSectionOne /> */}
       <AboutSectionTwo />

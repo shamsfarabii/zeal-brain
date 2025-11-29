@@ -200,7 +200,7 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              All rights reserved. ©{(new Date()).getFullYear()} ZealBrain
+              All rights reserved. ©{(new Date()).getFullYear()} DeepWave Leads
             </p>
           </div>
         </div>
